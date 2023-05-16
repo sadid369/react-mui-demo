@@ -20,7 +20,7 @@ export const MuiTextField = () => {
           value={value}
           onChange={(e) => setValue(e.target.value)}
           error={!value}
-          helperText={!value ? "Required" : "Dont show any one"}
+          helperText={!value ? "Required" : "Dont show any one password"}
         />
         <TextField label="From Input" required helperText="Dont show" />
         <TextField label="Password" type={"password"} />
